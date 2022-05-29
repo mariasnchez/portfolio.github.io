@@ -15,7 +15,13 @@
 .vh-95{height:95vh;}
 
 
-
+div.row{
+    margin-right: 0px;
+ }
+ 
+ div.container-fluid{
+    padding-right: 0px;
+ }
 #inicio {
 	background: url(../imagenes/fondo.jpg)  no-repeat center top;
     text-align: center;
@@ -103,3 +109,9 @@
     letter-spacing: -1PX;
     font-weight: lighter;
 }
+
+@media (max-width: 700px) {
+    #inicio h1 {
+        font-size: 50px;
+    }
+  }
