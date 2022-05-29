@@ -1,0 +1,105 @@
+/***********estilo propio************/
+@font-face {
+    font-family: minombre ;
+    src: url("../fuentes/.....");
+}
+
+#barra{
+    width: 45px;
+    height: 45px;
+}
+.mifuente {font-family: minombre;}
+
+.navbar {z-index:1020;}
+
+.vh-95{height:95vh;}
+
+
+
+#inicio {
+	background: url(../imagenes/fondo.jpg)  no-repeat center top;
+    text-align: center;
+	margin-top: -100px;
+	padding-top: 200px;
+	background-attachment: relative;
+	background-position: center center;
+	min-height: 750px;
+	width: 100%;
+    background-size: 100%;
+    background-size: cover;
+}
+
+#inicio h1 {
+	color:#371a37;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	letter-spacing: 4px;
+	font-size: 80px;
+	font-weight: bold;
+}
+
+#inicio h4 {
+	font-weight: 400px;
+    font-size:20px;
+	color: #371a37 ;
+}
+
+#ejercicios{
+    text-align: center;
+	margin-top: -55px;
+	padding-top: 200px;
+	min-height: 1750px;
+	width: 100%;
+    color: #6d6d6d;
+    background-color: #c57ad1;
+}
+#ejercicios h1 {
+    color: #eee3f3;
+    margin-top: -90px;
+	font-weight: bold;
+	margin-bottom: 30;
+}
+#ejercicios a, #ejercicios a:visited {
+    color: #2c2d29 !important;
+}
+
+#ejercicios a:hover, #ejercicios a:active {
+    color: #e5c6f4 !important;
+}
+
+#ejercicios.active a {
+    color: #2c2d29 !important;
+}
+
+#ejercicios h4 {
+    color: #fcfbfe;
+    margin-top: 40px;
+    letter-spacing: -1.5PX;
+    font-weight:lighter;
+}
+.row {
+    margin-top: 40px;
+    
+}
+
+
+#contacto{
+    text-align: center;
+	padding-top: 30px;
+    padding-bottom: 50px ;
+	min-height: 100px;
+	width: 100%;
+    color: #6d6d6d;
+    background-color: #2f3b3e;
+}
+#contacto h1 {
+    color: #ffffff;
+    margin-top: 30px;
+	font-weight: bold;
+	margin-bottom: 30;
+}
+#contacto h6 {
+    color: #bfbbd2;
+    letter-spacing: -1PX;
+    font-weight: lighter;
+}
